@@ -63,7 +63,7 @@ export default function RootLayout({
                     className="font-bold hover:underline"
                     rel="noreferrer"
                   >
-                    Supabass
+                    Supabas
                   </a>
                 </p>
                 <ThemeSwitcher />
