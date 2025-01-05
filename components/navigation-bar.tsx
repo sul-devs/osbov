@@ -6,7 +6,7 @@ export default function NavigationBar() {
   return (
     <nav className="bg-lime-500 py-5 w-full text-center">
       <div className="container flex items-center justify-between">
-        {/* Logo */}
+        {/* Logo image */}
         <Link href="/">
           <Image
             src="/twitter-image.png"
