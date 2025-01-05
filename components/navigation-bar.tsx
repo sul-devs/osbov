@@ -5,7 +5,7 @@ import Button from "@/components/button";
 export default function NavigationBar() {
   return (
     <nav className="bg-lime-500 py-5 w-full text-center">
-      <div className="container flex flex-col gap-6 items-center sm:flex-row">
+      <div className="container flex items-center justify-between">
         {/* Logo */}
         <Link href="/">
           <Image
@@ -17,7 +17,7 @@ export default function NavigationBar() {
         </Link>
 
         {/* Links */}
-        <ul className="gap-6 flex flex-col sm:flex-row">
+        <ul className="gap-6 flex">
           <li>
             <Link href="/about">About</Link>
           </li>
