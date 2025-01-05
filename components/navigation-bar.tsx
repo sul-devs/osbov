@@ -12,7 +12,7 @@ export default function NavigationBar() {
             src="/twitter-image.png"
             alt="Twitter logo."
             width={75}
-            height={60}
+            height={65}
           />
         </Link>
 
