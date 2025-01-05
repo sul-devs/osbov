@@ -4,20 +4,20 @@ import Button from "@/components/button";
 
 export default function NavigationBar() {
   return (
-    <nav>
-      <div className="container flex justify-between items-center">
+    <nav className="bg-lime-500 py-5 w-full text-center">
+      <div className="container flex flex-col gap-6 items-center sm:flex-row">
         {/* Logo */}
         <Link href="/">
           <Image
             src="/twitter-image.png"
             alt="Twitter logo."
-            width={90}
+            width={75}
             height={60}
           />
         </Link>
 
         {/* Links */}
-        <ul className="flex gap-5">
+        <ul className="gap-6 flex flex-col sm:flex-row">
           <li>
             <Link href="/about">About</Link>
           </li>
