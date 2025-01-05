@@ -17,7 +17,7 @@ export default function NavigationBar() {
         </Link>
 
         {/* Links */}
-        <ul className="gap-6 flex">
+        <ul className="gap-6 hidden sm:flex">
           <li>
             <Link href="/about">About</Link>
           </li>
