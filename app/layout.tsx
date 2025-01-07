@@ -8,6 +8,7 @@ import { ThemeProvider } from "next-themes";
 import Link from "next/link";
 import "./globals.css";
 import NavigationBar from "@/components/navigation-bar";
+import Footer from "@/components/footer";
 
 const defaultUrl = process.env.VERCEL_URL
   ? `https://${process.env.VERCEL_URL}`
@@ -30,24 +31,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={geistSans.className} suppressHydrationWarning>
-      <body className="bg-background text-foreground">
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
-          {/* Header. */}
-          <NavigationBar />
-          {/* <Hero /> */}
+    <html>
+      <body>
+        {/* Header. */}
+        <NavigationBar />
+        {/* <Hero /> */}
 
-          {/* Page contents (dynamic). */}
-          <main>{children}</main>
+        {/* Page contents (dynamic). */}
+        <main>{children}</main>
 
-          {/* Footer */}
-          {/* <Footer /> */}
-        </ThemeProvider>
+        {/* Footer */}
+        <Footer />
       </body>
     </html>
   );
