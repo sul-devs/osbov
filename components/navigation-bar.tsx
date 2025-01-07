@@ -36,7 +36,7 @@ export default function NavigationBar() {
         </ul>
 
         {/* Button */}
-        <Button text="Sign Up" />
+        <Button text="Sign Up" href={"#"} />
       </div>
     </nav>
   );
