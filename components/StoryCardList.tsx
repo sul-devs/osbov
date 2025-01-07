@@ -17,7 +17,7 @@ export default function StoryCardList({
       <div className="container">
         <h2>{heading}</h2>
         <p>{description}</p>
-        <div>{cards}</div>;{button}
+        <div className="flex">{cards}</div>;{button}
       </div>
     </section>
   );
