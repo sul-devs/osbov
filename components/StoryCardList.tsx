@@ -14,9 +14,11 @@ export default function StoryCardList({
 }) {
   return (
     <section>
-      <h2>{heading}</h2>
-      <p>{description}</p>
-      <div>{cards}</div>;{button}
+      <div className="container">
+        <h2>{heading}</h2>
+        <p>{description}</p>
+        <div>{cards}</div>;{button}
+      </div>
     </section>
   );
 }
