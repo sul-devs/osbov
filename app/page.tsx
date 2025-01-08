@@ -1,7 +1,6 @@
-// import NavigationBar from "@/components/navigation-bar";
-import Button from "@/components/button";
-import Hero from "@/components/hero";
-import StoryCard from "@/components/story-card";
+import Button from "@/components/Button";
+import Hero from "@/components/Hero";
+import StoryCard from "@/components/StoryCard";
 import headshot from "@/app/twitter-image.png";
 import Image from "next/image";
 import StoryCardList from "@/components/StoryCardList";
