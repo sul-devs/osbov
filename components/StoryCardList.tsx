@@ -1,5 +1,5 @@
 import React, { JSX } from "react";
-import Button from "./button";
+import Button from "./Button";
 
 export default function StoryCardList({
   cards,
@@ -14,7 +14,7 @@ export default function StoryCardList({
 }) {
   return (
     <section>
-      <div className="container">
+      <div className="container block pb-5">
         <h2>{heading}</h2>
         <p>{description}</p>
         <div className="flex">{cards}</div>;{button}
