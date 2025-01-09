@@ -11,10 +11,10 @@ export default function Hero({
   cta: JSX.Element;
 }) {
   return (
-    <section id="hero">
+    <section id="hero" className="py-20">
       <div className="container">
         <h1>{heading}</h1>
-        <p>{paragraph}</p>
+        <p className="py-5">{paragraph}</p>
         {cta}
       </div>
     </section>
